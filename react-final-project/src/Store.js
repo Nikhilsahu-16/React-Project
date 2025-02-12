@@ -4,7 +4,7 @@ const productSlice = createSlice({
     name: 'products',
     initialState: {
         veg: [
-            { source: "react-final-project/public/image/vegpizza.jpg", name: "Veg Pizza", para: "A delicious vegetarian pizza with fresh toppings.", price: 250 },
+            { source: "vegpizza.jpg", name: "Veg Pizza", para: "A delicious vegetarian pizza with fresh toppings.", price: 250 },
             { source: "react-final-project/public/image/chickenwings.jpg", name: "Chicken Wings", para: "Crispy and flavorful chicken wings served with sauce.", price: 300 },
             { source: "react-final-project/public/image/spagheti.jpg", name: "Spaghetti Pasta", para: "Delicious spaghetti served with a rich sauce.", price: 150 },
             { source: "react-final-project/public/image/Cheeseburger.jpg", name: "Cheeseburger", para: "A classic cheeseburger with fresh veggies and cheese.", price: 110 },
