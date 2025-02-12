@@ -4,7 +4,7 @@ const productSlice = createSlice({
     name: 'products',
     initialState: {
         veg: [
-            { source: "https://tse4.mm.bing.net/th?id=OIP.6b_BciyVJSM1SPhCFADXBwHaE8&pid=Api&P=0&h=180", name: "Veg Pizza", para: "A delicious vegetarian pizza with fresh toppings.", price: 250 },
+            { source: "https://www.google.com/imgres?q=vegetarian%20pizza%20download&imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F842082336%2Fphoto%2Fhomemade-veggie-pizza-with-mushrooms-peppers.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3Dop1vZnGjlB_c3w6Z-ohPo0wn4QveujVKZu4vTZCOWnc%3D&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fvegetable-pizza&docid=esGkWY2hSewb1M&tbnid=BQKgkuT-0fCRnM&vet=12ahUKEwjBqaiV3L2LAxWt96ACHf5VFS8QM3oECGkQAA..i&w=612&h=408&hcb=2&ved=2ahUKEwjBqaiV3L2LAxWt96ACHf5VFS8QM3oECGkQAA", name: "Veg Pizza", para: "A delicious vegetarian pizza with fresh toppings.", price: 250 },
             { source: "react-final-project/public/image/chickenwings.jpg", name: "Chicken Wings", para: "Crispy and flavorful chicken wings served with sauce.", price: 300 },
             { source: "react-final-project/public/image/spagheti.jpg", name: "Spaghetti Pasta", para: "Delicious spaghetti served with a rich sauce.", price: 150 },
             { source: "react-final-project/public/image/Cheeseburger.jpg", name: "Cheeseburger", para: "A classic cheeseburger with fresh veggies and cheese.", price: 110 },
